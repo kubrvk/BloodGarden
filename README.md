@@ -4,15 +4,12 @@
 > [itch.io Page](https://kubrik.itch.io/bloodgarden) · [ArtStation](https://www.artstation.com/kubrik)
 
 ![image](https://img.itch.zone/aW1nLzI1NTE5Nzc0LmpwZw==/original/qpQ4I3.jpg)
----
 
 ## Overview
 
 Blood Garden is a fast-paced souls-like action combat game built in Unreal Engine 5.4 using C++. Set in a cursed garden where corrupted flora and divine remnants coexist, the game is centered on precise stamina-driven melee combat — emphasizing timing, resource management, and mechanical mastery over raw aggression.
 
 The combat framework is built around a stamina economy that governs attacks, dodges, and parries. Enemy AI operates on pattern-based state machines designed for readable but demanding encounters. The RPG layer provides a full equipment system with elemental damage typing, multi-slot gear, weight-based movement penalty, and a stat architecture visible across offense, defense, and elemental damage dimensions.
-
-All gameplay systems, character controller, enemy AI, inventory, UI, and 3D assets were developed by a single developer.
 
 ---
 
@@ -116,7 +113,7 @@ bool UStaminaComponent::TryConsumeStamina(float Amount)
 ---
 
 ### 2. Combat System
-
+![image](https://img.itch.zone/aW1hZ2UvNDE4MDY0Mi8yNTU1NzAxOC5wbmc=/original/Jphekm.png)
 Combat is structured around a light/heavy attack chain framework with stamina gating, a parry window, and a sub-slot block — all governed by `UCombatComponent`.
 
 **Attack Chain System:**
@@ -188,6 +185,7 @@ Dodge is a directional roll with an i-frame window implemented in `UDodgeCompone
 ---
 
 ### 4. Stat System
+![image](https://img.itch.zone/aW1hZ2UvNDE4MDY0Mi8yNTU1Njk5Mi5wbmc=/original/xy549w.png)
 
 Stats are divided into **Life** and **Offense** categories as reflected in the character panel. All stat values are derived at runtime from base character level + equipment modifiers — no manually allocated points.
 
@@ -323,6 +321,7 @@ Eight elemental/damage channels contribute independently to total DPS, allowing 
 ---
 
 ### 8. Art Scroll System
+![image](https://img.itch.zone/aW1hZ2UvNDE4MDY0Mi8yNTU1NzAzMC5wbmc=/original/2gIN0I.png)
 
 Art Scrolls occupy the dedicated `A` slot and provide an active ability triggered via a distinct input binding.
 
@@ -335,6 +334,7 @@ Art Scrolls occupy the dedicated `A` slot and provide an active ability triggere
 ---
 
 ### 9. Enemy AI System
+![image](https://img.itch.zone/aW1hZ2UvNDE4MDY0Mi8yNTU1NzAzNC5wbmc=/original/ks2YWM.png)
 
 Enemies are `ABGEnemyBase` subclasses controlled by `ABGAIController`, using Unreal's Behavior Tree with custom C++ task and decorator nodes.
 
@@ -478,4 +478,4 @@ The character/inventory UI (visible in screenshot) is a composite `UUserWidget` 
 
 ---
 
-*All code, art, design, and marketing assets produced by a single developer. No third-party gameplay code or purchased asset packs used in core systems.*
+*All code, design, and custom assets produced by a single developer. No third-party gameplay code used in core systems.*
