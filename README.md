@@ -236,16 +236,16 @@ Equipment is structured across 8 slot categories visible in the character panel:
 
 | Slot | Key | Notes |
 |---|---|---|
-| Main Weapon | M | Primary melee weapon; defines attack chain set |
-| Sub Weapon / Shield | S | Off-hand weapon or shield (block enabled only with shield) |
-| Art Scroll | A | Active ability item; MP cost on use |
-| Skill Slots | 1 / 2 / 3 / 4 | Consumable or active item quick slots |
-| Head | H | Armor piece |
+| Main Weapon | 1 | Primary melee weapon; defines attack chain set |
+| Sub Weapon / Shield | 2 | Off-hand weapon or shield (block enabled only with shield) |
+| Art Scroll | Q | Active ability item; MP cost on use |
+| Skill Slots | CTRL + 1 / 2 / 3 / 4 | Consumable or active item quick slots |
+| Head | — | Armor piece |
 | Upper Body | — | Armor piece |
-| Lower Body | L | Armor piece |
-| Necklace | N | Accessory; stat bonuses |
-| Bracelet | B | Accessory; stat bonuses |
-| Ring | R | Accessory; often elemental or crit focused |
+| Lower Body | — | Armor piece |
+| Necklace | — | Accessory; stat bonuses |
+| Bracelet | — | Accessory; stat bonuses |
+| Ring | — | Accessory; often elemental or crit focused |
 
 **Equipment Data Asset:**
 - All items defined via `UItemDataAsset`: `EItemType`, `EItemRarity`, `FItemStatContribution`, `float Weight`, `USkeletalMesh* Mesh`, `UTexture2D* Icon`, `FText Description`.
