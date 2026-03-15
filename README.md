@@ -3,6 +3,7 @@
 > **Souls-like action combat** — Unreal Engine 5.4 · C++ · Solo Development  
 > [itch.io Page](https://kubrik.itch.io/bloodgarden) · [ArtStation](https://www.artstation.com/kubrik)
 
+![image](https://img.itch.zone/aW1nLzI1NTE5Nzc0LmpwZw==/original/qpQ4I3.jpg)
 ---
 
 ## Overview
