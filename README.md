@@ -449,13 +449,12 @@ The character/inventory UI (visible in screenshot) is a composite `UUserWidget` 
 | Developer count | 1 (solo) |
 | Engine | Unreal Engine 5.4 |
 | Languages | C++, Blueprint |
-| 3D Assets | All original , modeled, textured, rigged, animated by developer |
 | Enemy types | Multiple (Corrupted Flora, Divine Remnants, variants) |
 | Elemental channels | 5 (Physical, Burn, Freeze, Shock, Bleed) |
 | Equipment slots | 10 (weapon ×2, art scroll, skill ×4, armor ×3, accessories ×3) |
 | Gameplay systems | 12 discrete systems (see above) |
 | Platform | PC Windows / Linux |
-| Development tools | UE5 Editor, ZBrush, Maya, Blender, Substance Painter, Photoshop |
+| Development tools | UE5 Editor, ZBrush, Blender, Substance Painter, Photoshop |
 
 ---
 
